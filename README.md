@@ -1,6 +1,6 @@
 # msc-ai-prompt
 
-[![DeepScan grade](https://deepscan.io/api/teams/16372/projects/28232/branches/909145/badge/grade.svg)](https://deepscan.io/dashboard#view=project&tid=16372&pid=28232&bid=909145)
+[![Published on webcomponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg)](https://www.webcomponents.org/element/msc-ai-prompt) [![DeepScan grade](https://deepscan.io/api/teams/16372/projects/28232/branches/909145/badge/grade.svg)](https://deepscan.io/dashboard#view=project&tid=16372&pid=28232&bid=909145)
 
 &lt;msc-ai-prompt /> is a web component based on Chrome Built-in AI Prompt API. Web developers could use &lt;msc-ai-prompt /> wrap form element and give it prompt feature support.
 
