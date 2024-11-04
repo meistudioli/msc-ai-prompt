@@ -77,7 +77,7 @@ nodeA.config = {
   temperature: .8,
   topK: 3
 };
-nodeA.loop = true;
+nodeA.disabed = false;
 
 // new instance with Class
 const nodeB = new MscAiPrompt();
@@ -88,7 +88,7 @@ nodeB.config = {
   temperature: .8,
   topK: 3
 };
-nideB.disabed = true;
+nodeB.disabed = true;
 
 // new instance with Class & default config
 const config = {
