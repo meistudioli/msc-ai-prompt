@@ -15,7 +15,7 @@
 ```html
 <script
   type="module"
-  src="https://unpkg.com/yahoo-x-bv-player/mjs/wc-msc-ai-prompt.js">        
+  src="https://unpkg.com/msc-ai-prompt/mjs/wc-msc-ai-prompt.js">        
 </script>
 ```
 
