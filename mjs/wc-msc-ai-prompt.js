@@ -2,6 +2,14 @@ import { _wcl } from './common-lib.js';
 import { _wccss } from './common-css.js';
 import { buttons as _fujiButtons } from './fuji-css.js';
 
+/*
+ reference:
+ - Built-in AI: https://developer.chrome.com/docs/ai/built-in
+ - Built-in AI Early Preview Program: https://docs.google.com/document/d/18otm-D9xhn_XyObbQrc1v7SI-7lBX3ynZkjEpiS1V04/edit?tab=t.0
+ - Prompt API: https://docs.google.com/document/d/1VG8HIyz361zGduWgNG7R_R8Xkv0OOJ8b5C9QKeCjU0c/edit?tab=t.0#heading=h.drihdh1gpv8p
+ - MDN text-wrap: https://developer.mozilla.org/en-US/docs/Web/CSS/text-wrap
+ */
+
 const defaults = {
   config: {
     // systemPrompt, temperature, topK
@@ -398,7 +406,7 @@ ${_fujiButtons}
   .pretty-paragraph {
     word-break: break-word;
     hyphens: auto;
-    text-wrap: balance;
+    text-wrap: pretty;
     white-space: pre-wrap;
   }
 
