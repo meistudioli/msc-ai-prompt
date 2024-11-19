@@ -1,6 +1,6 @@
 {
   "name": "msc-ai-prompt",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "<msc-ai-prompt /> is a web component based on Chrome Built-in AI Prompt API. Web developers could use <msc-ai-prompt /> wrap form element and give it prompt feature support.",
   "main": "index.html",
   "scripts": {
